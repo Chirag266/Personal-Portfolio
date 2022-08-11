@@ -20,7 +20,11 @@
 
 #Nav-list li{
     list-style: none;
-    
+    transition: 0.3s;
+}
+
+#Nav-list li:hover {
+    transform: scale(1.1);
 }
 
 #Nav-list li a{
